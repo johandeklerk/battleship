@@ -1,0 +1,26 @@
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: battleship_development
+  pool: 5
+  username: battleship
+  password: random
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: battleship_test
+  pool: 5
+  username: battleship
+  password: random
+
+production:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: battleship_production
+  pool: 5
+  username: battleship
+  password: random
