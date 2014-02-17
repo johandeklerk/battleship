@@ -24,8 +24,11 @@ gem 'jquery-rails', '~> 3.1.0'
 # Use bootstrap as the css framework
 gem 'bootstrap-sass', '~> 3.1.1.0'
 
+# Use HTTParty for communication with external API
+gem 'httparty', '~> 0.13.0'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+# gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -34,6 +37,10 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.beta'
+end
+
+group :development do
+  gem 'rails_layout', '~> 1.0.7'
 end
 
 # Use ActiveModel has_secure_password
