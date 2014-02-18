@@ -1,0 +1,25 @@
+Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 16ms
+Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 17ms
+Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 4ms
+Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 4ms
+Processing by ApplicationController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 46ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+Processing by ApplicationController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+Processing by ApplicationController#index as HTML
+Completed 500 Internal Server Error in 1ms
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)

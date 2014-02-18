@@ -43,6 +43,10 @@ group :development do
   gem 'rails_layout', '~> 1.0.7'
 end
 
+group :test do
+  gem 'webmock', '~> 1.17.3'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
