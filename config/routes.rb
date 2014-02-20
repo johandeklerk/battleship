@@ -6,7 +6,10 @@ Battleship::Application.routes.draw do
   root 'application#index'
 
   # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+  get 'register' => 'game#register'
+  get 'salvo' => 'game#salvo'
+  get 'get_player_board' => 'game#get_player_board'
+  get 'get_opponent_board' => 'game#get_opponent_board'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase

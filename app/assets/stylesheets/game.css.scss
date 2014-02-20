@@ -1,0 +1,46 @@
+// Place all the styles related to the game controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.rectangle {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  stroke: blue;
+}
+
+.row {
+  float:left;
+}
+
+div#opponent_heading {
+  float: left;
+  width: 511px;
+  margin-left: 420px;
+  font-size: 22px;
+}
+
+div#player_heading {
+  float: left;
+  width: 511px;
+  padding-left: 10px;
+  font-size: 22px;
+}
+
+
+div#player_board {
+  float: left;
+  width: 511px;
+}
+
+div#opponent_board {
+  float: left;
+  width: 511px;
+}
+
+div#messages_container {
+  float: left;
+  width: 350px;
+  margin: 10px 30px;
+  font-size: 22px;
+}

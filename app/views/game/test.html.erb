@@ -1,0 +1,11 @@
+<table>
+  <% (0..9).each do |i| %>
+      <tr>
+        <% (0..9).each do |j| %>
+            <td>
+                <%= @player_board[(i.to_s+j.to_s).to_i][:status] %>
+            </td>
+        <% end %>
+      </tr>
+  <% end %>
+</table>

@@ -10,4 +10,12 @@ class Comms::BsAPI
       JSON.parse(result.body)
     end
   end
+
+  def nuke(id, x, y)
+    options = {:body => {:id => id, :x => x, :y => y}.to_json, :headers => {'Content-Type' => 'application/json'}}
+    result = self.class.post('/nuke', options)
+    if result.headers['status'] == '200 OK'
+      JSON.parse(result.body)
+    end
+  end
 end
